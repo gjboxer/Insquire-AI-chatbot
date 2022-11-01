@@ -1,0 +1,353 @@
+{
+  "intents": [
+    {
+      "tag": "institute name",
+      "patterns": [
+        "name of the college",
+        "name of college",
+        "college name",
+        "the name of college",
+        "name of the institute",
+        "name of institute",
+        "institute name",
+        "of the institute name",
+        "the name of institute",
+        "about college",
+        "What is the name of the college?",
+        "Can you tell me college name"
+      ],
+      "responses": [
+        "Pandit Dwarka Prasad Mishra Indian Institute of Information Technology, Design and Manufacturing, Jabalpur"
+      ]
+    },
+    {
+      "tag": "greetings",
+      "patterns": [
+        "hello",
+        "hey",
+        "hi",
+        "good day",
+        "Greetings",
+        "what's up?",
+        "how is it going?"
+      ],
+      "responses": [
+        "Hello! How may I help you ?",
+        "Hello there!",
+        "Hello, What can I do for you?"
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "pincode of institute",
+        "district of college",
+        "pincode of college",
+        "district of institute",
+        "address of institute",
+        "institute address",
+        "institute of address",
+        "location of institute",
+        "institute location",
+        "location of college",
+        "college location",
+        "address of institute",
+        "institute address",
+        "college address",
+        "what is the address of college?",
+        "where is college located?"
+      ],
+      "responses": [
+        "PDPM IIITDM Jabalpur Campus,Dumna Airport Rd,P.O. Khamaria, Jabalpur, Madhya Pradesh PIN-482005"
+      ]
+    },
+    {
+      "tag": "courses",
+      "patterns": [
+        "courses offered",
+        "offered courses",
+        "courses offered in institute",
+        "offered courses in institute",
+        "courses offered in campus",
+        "offered courses  in campus",
+        "courses offered in campus",
+        "offered courses  in campus",
+        "what are the courses offered in college?",
+        "what are the courses offered in college?",
+        "courses which are offered",
+        "please tell about the courses offered here",
+        "about course "
+      ],
+      "responses": [
+        "Bachelor in Technology in CSE (Computer Science & Engineering), \nECE (Electronics & Communication Engineering), \nME (Mechnical Engineering), \nSM (Smart Manufacturing). \nBachelor in Design , \nMaster in Technology, \nMaster in Design, \nPhD (Doctor of Philosophy), \nIntergrated Master + PhD."
+      ]
+    },
+    {
+      "tag": "courseDuration",
+      "patterns": [
+        "Duration of bachelor course",
+        "how long will be bachelor courses",
+        "how many years at bachelor course",
+        "bachelor course duration"
+      ],
+      "responses": ["Bachelors : 4 years , Masters : 2 years"]
+    },
+    {
+      "tag": "departments",
+      "patterns": [
+        "how many departments are present",
+        "departments",
+        "show departments",
+        "different deparatments available",
+        "different deparatments present",
+        "diff departments available"
+      ],
+      "responses": [
+        "Computer Science & Engineering (CSE), Electronics & Communication Engineering (ECE), Design (Des), Mechanical Engineering (ME), Natural Sciences (NS), Liberal Arts (LA)"
+      ]
+    },
+    {
+      "tag": "feeStructure",
+      "patterns": [
+        "What is the fee structure",
+        "Fee details",
+        "semester fee",
+        "course fee",
+        "full fee details",
+        "tuition fee",
+        "hostel fee",
+        "Fee insights",
+        "structure of fee",
+        "money paid to college"
+      ],
+      "responses": [
+        "Visit here to know more : https://www.iiitdmj.ac.in/academics/admission/fee_structure.php"
+      ]
+    },
+    {
+      "tag": "hostels",
+      "patterns": [
+        "hostel",
+        "hall of residence",
+        "how many hostels are there?",
+        "boys hostel",
+        "girls hostel",
+        "hostel facility",
+        "hostels of iiitdmj",
+        "Name of hostels?"
+      ],
+      "responses": [
+        "IIITDMJ have 3 boys hostel for BTech students, 1 girls hostel, 1 boys hostel for Mtech students, and 1 family hostel for Phd students with family.","Hostels are equipped with modern facilies like WiFi, Cafeteria, Reading room, Indoor games, etc","https://www.iiitdmj.ac.in/students/hostels.php"
+      ]
+    },
+    {
+      "tag": "calendar",
+      "patterns": [
+        "academic calendar",
+        "holidays",
+        "closed holidays",
+        "calendar",
+        "college calendar",
+        "GH holidays calendar",
+        "Tenure of the academic"
+      ],
+      "responses": [
+        "Visit here to check the academic calendar: https://www.iiitdmj.ac.in/academics/calendar.php"
+      ]
+    },
+    {
+      "tag": "gymkhana",
+      "patterns": [
+        "What is gymkhana?", "What are the gymkhana activities?"
+      ],
+      "responses": [
+        "Students’ Gymkhana is constituted to evolve a disciplined self-governance for carrying out various extracurricular in-campus activities and to establish a responsible and accountable student body.",
+        "Visit here to check the academic calendar: https://www.iiitdmj.ac.in/students/gymkhana/gymkhana.php"
+      ]
+    },
+    {
+      "tag": "faculty",
+      "patterns": [
+        "faculty",
+        "professors",
+        "professors of iiitdmj",
+        "faculty of college",
+        "faculty of iiitdmj",
+        "professors of college"
+      ],
+      "responses": [
+        "You can view information about the faculty of IIITDMJ here: http://faculty.iiitdmj.ac.in/faculty"
+      ]
+    },
+    {
+      "tag": "deans",
+      "patterns": [
+        "administration",
+        "deans",
+        "deans of iiitdmj",
+        "academic office information",
+        "deans of iiitdmj",
+        "deans of college",
+        "academic people of college"
+      ],
+      "responses": [
+        "To get the information of all the academic and administrative people of IIITDMJ visit here: https://www.iiitdmj.ac.in/administration/administration.php"
+      ]
+    },
+    {
+      "tag": "placement",
+      "patterns": [
+        "what is the average package",
+        "what is the highest package",
+        "what is the median package",
+        "what is the lowest package",
+        "what are the companies visiting campus",
+        "campus hiring",
+        "full time roles",
+        "does college provide internship",
+        "hiring",
+        "college placements",
+        "what are the major recruiters"
+      ],
+      "responses": [
+        "Placement has been improving every year. Major recruiters are Amazon, CRED, LinkedIn, Gameskarft, Slice, Oracle, Browserstack, Mathworks, American Express, etc. Highest CTC - 44LPA by Amazon. For more details : https://www.iiitdmj.ac.in/placement.iiitdmj.ac.in/"
+      ]
+    },
+    {
+      "tag": "postGraduate",
+      "patterns": [
+        "what are the pg courses available",
+        "what are the post-graduate courses available",
+        "how to apply for pg courses",
+        "pg",
+        "post-graduate"
+      ],
+      "responses": ["Our institute provides Post-Graduate courses. Visit for more info : https://www.iiitdmj.ac.in/academics/admission/Post%20Graduate.php"]
+    },
+    {
+      "tag": "seatMatrix",
+      "patterns": [
+        "what is the seat matrix",
+        "seat matrix",
+        "Seat Matrix 2022-23"
+      ],
+      "responses": ["Visit : https://www.iiitdmj.ac.in/academics/download/Seat%20Matrix%202022-23.pdf"]
+    },
+    {
+      "tag": "convocation",
+      "patterns": [
+        "what is convocation?",
+        "awardees",
+        "director awards",
+        "awards given by institute"
+      ],
+      "responses": ["Visit our . Visit : https://www.iiitdmj.ac.in/convocation.php"]
+    },
+    {
+      "tag": "alumini",
+      "patterns": [
+        "connections",
+        "alumini network",
+        "alumini contacts",
+        "passouts"
+      ],
+      "responses": ["Our alumins are great individuals who work in large MNCs or are enterpreneurs. Visit : https://alumni.iiitdmj.ac.in/"]
+    },
+    {
+      "tag": "curriculum",
+      "patterns": [
+        "What is the course curriculum ?",
+        "what is the course structure?",
+        "Course content",
+        "course content of every department",
+        "what are the courses in a semester"
+      ],
+      "responses": ["Visit : https://www.iiitdmj.ac.in/academics/curriculum.php"]
+    },
+    {
+      "tag": "facilities",
+      "patterns": [
+        "facilities",
+        "facility to student",
+        "What are the facilities available to students?",
+        "available faciltiy",
+        "what are the facilities provided by institute",
+        "facilities available"
+      ],
+      "responses": [
+        "Institue has its own Health Care Faciltity (PHC). Library with 1000+ books, semester books available to every student. Computer Centre with 24/7 electricity and good wifi. Bank & ATM facilities available."
+      ]
+    },
+    {
+      "tag": "mess",
+      "patterns": [
+        "What is mess",
+        "mess food",
+        "food facility",
+        "cafeteria",
+        "food Centre",
+        "mess fee",
+        "mess menu",
+        "mess complaint",
+        "mess timig",
+        "What is the mess timing?",
+        "What is the mess fee?"
+      ],
+      "responses": ["Visit here : https://www.iiitdmj.ac.in/students/mess.php"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "See you later",
+        "Goodbye",
+        "I am leaving",
+        "Have a Good Day",
+        "bye",
+        "see ya"
+      ],
+      "responses": ["Sad to see you go :(", "Talk you later", "Goodbye"]
+    },
+
+    {
+      "tag": "invalid",
+      "patterns": ["", "gvsd", "asbhk"],
+      "responses": [
+        "Sorry, can't understand you",
+        "Please give me more info",
+        "Not sure I understand"
+      ]
+    },
+    {
+      "tag": "invalid",
+      "patterns": ["", "gvsd", "asbhk"],
+      "responses": [
+        "Sorry, can't understand you",
+        "Please give me more info",
+        "Not sure I understand"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Awesome, thanks",
+        "Thanks for helping me"
+      ],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+        "tag": "scholarship",
+        "patterns": [
+          "scholarships",
+          "student scholarship",
+          "scholarship for students",
+          "is scholarships available for students",
+          "felloships",
+          "student grant"
+        ],
+        "responses": ["Scholarships are available for students like MCM, MVPY and many more."]
+    }
+  ]
+}
